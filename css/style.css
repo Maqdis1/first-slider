@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.slider {
+    width: 1300px;
+    height: 500px;
+    margin: 50px 120px 50px 120px;
+    padding: 30px 160px 30px 200px;
+    background-image: linear-gradient(black,  rgb(27, 27, 206), rgb(63, 60, 60), rgb(27, 27, 206), black);
+}
+.in-slider {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    background-color: black;
+    border: 3px solid rgb(82, 174, 205);
+    }
+    .content {
+        width: 400px;
+        height: 350px;
+        background-color: black;
+        font-family: Arial;
+        text-align: justify;
+        text-indent: 30px;
+        padding: 20px;
+        color: white;
+    }
+    h3 {
+        text-shadow: 4px 4px rgb(50, 50, 254);
+      }
+
+.slick-prev {
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid  rgb(233, 249, 239);
+	border-bottom: 25px solid transparent;
+    background-color: transparent;
+    font-size: 0px;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+.slick-next {
+    position: absolute;
+    top: 220px;
+    right: 110px;
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid  rgb(233, 249, 239);
+	border-bottom: 25px solid transparent;
+    background-color: transparent;
+    font-size: 0px;
+    }
+
+.points {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100px;
+    height: 450px;
+    margin: 0px 0px 0px 15px;
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+    background-image: linear-gradient(black, lightgray, black);
+    padding: 15px;
+        }
+
+    .points button {
+        background: none;
+        border: none;
+        font-size: 0%;
+    }    
+
+    /** этот хуй хочет сказать, что родитель имеет 6 детей, я так думаю, но все равно я ни хуя не понял логику. Как-то мой отец говорил, что даже Ленин получил по логике оценку 4 **/
+    .points :nth-last-child(6) {
+        background: url(../images/1.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+        }
+    .points :nth-child(2) {
+        background: url(../images/2.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+        }
+    .points :nth-child(3) {
+        background: url(../images/3.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+    }
+    .points :nth-child(4) {
+        background: url(../images/4.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+    }
+    .points :nth-child(5) {
+        background: url(../images/5.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+    }
+    .points :nth-child(6) {
+        background: url(../images/6.jpg);
+        border: none;
+        color: transparent;
+        width: 70px;
+        height: 50px;
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 2px solid white;
+    }
+    
+    
